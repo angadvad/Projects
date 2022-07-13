@@ -32,4 +32,4 @@ function randoBg () {
     color.innerHTML = "#" + randomColor;
 }
 
-genNew.addEventListener("click", randoBg);
+butt.addEventListener("click", randoBg);

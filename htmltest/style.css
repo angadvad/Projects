@@ -1,12 +1,13 @@
 body {
     font-family:'Courier New', Courier, monospace;
     background:steelblue;
+    padding: 50px;
 }
 
 header {
     background:paleturquoise;
     color:navy;
-    padding: 30px;
+    text-align: center;
 }
 
 nav {
