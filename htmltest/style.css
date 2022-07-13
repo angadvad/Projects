@@ -1,0 +1,29 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background:steelblue;
+}
+
+header {
+    background:paleturquoise;
+    color:navy;
+    padding: 30px;
+}
+
+nav {
+    background:paleturquoise;
+}
+
+
+article {
+    background:paleturquoise;
+}
+
+aside {
+    background:paleturquoise;
+}
+
+footer {
+    background:paleturquoise;
+}   
+
+

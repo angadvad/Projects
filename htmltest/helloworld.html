@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1> HEADER </h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Artical heading</h2>
+            <p>Paragraph...</p>
+            <a href="https://www.google.com/"> More information...</a>
+        </article>
+        <aside>
+            <h2>Related</h2>
+            <ul>
+                <li><a href="#">Article 1</a></li>
+                <li><a href="#">Article 2</a></li>
+            </ul>
+        </aside>
+    </section>
+    <footer>
+        <form name ="e1">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" value="Bob Ross"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="bobross@gmail.com"><br>
+            <input type="submit" value="Submit" onclick="ValidateName(document.e1.name),ValidateEmail(document.e1.email)">
+        </form>
+        <br>
+        <p>@copyright 2050 by nobody. all rights reversed</p>
+
+        <button id="genNew">Change BG Colour</button>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
