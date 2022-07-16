@@ -11,7 +11,12 @@ let maxTotalWealth = (accounts) =>{
         for (let b=0; b<accounts[a].length; b++){
             total += accounts[a][b];
         }
-        totalHigh = totalHigh > total? totalHigh : total;
+
+        if(totalHigh>total){
+            // do nothing (current total is higher)
+        }else {
+            totalHigh = total;
+        }
     }
     return totalHigh;
 }
